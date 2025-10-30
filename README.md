@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to SYS 3062: Modelling and Simulation 
 
 You can use the [editor on GitHub](https://github.com/sys-4021-6021/sys-4021-6021.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
