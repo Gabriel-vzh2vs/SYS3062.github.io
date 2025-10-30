@@ -2,6 +2,7 @@
 <!--doctype html-->
 
 <!-- Copyright Gabriel Lawrence - Spring 2026 -->
+ <!-- gabeL@virginia.edu -->
 <!-- Web template from Sonia Baee -->
 <!-- sb5ce@virginia.edu -->
 
@@ -107,32 +108,23 @@
   <strong><b>Learning Objectives: </b></strong> 
      <ul>
       <p> In your professional careers you will undoubtedly encounter projects and problems where simulation is an option for a solution. The purpose of this course is to provide you with a foundation covering theory and practice for stochastic simulations as a method for the design and analysis of systems. </p>
-    <li>Gain an appreciation of the ability of statistical modeling to inform engineering design</li>
-    <li>Apply evidence-informed systems engineering approaches to solve real-world problems</li>
-          <li>Formulate meaningful, testable hypotheses around those problems from associated data</li>
-          <li>Identify appropriate statistical modeling technique(s) to test those hypotheses</li>
-    <li>Assess the limitations of the information available to solve identified problems</li>
-          <li>Uncover bias, errors, outliers, and influential observations in data and models</li>
-    <li>Derive an actionable recommendation with statistical confidence using the evidential reasoning process</li>
-          <li>Communicate the application of the evidence-informed systems engineering process to a problem through a technical summaries/reports directed to a client and / or practicing engineer</li>
-    <li>Recognize the limitations of methods learned in class, but have the foundation to learn more advanced modeling tools when those covered in class are insufficient</li>
-     </ul>
   </div>
       <div class="col-6 p-2" id="prereqs" style="padding-top: 2 em;">
         <strong><b>Prerequisites: </b></strong> 
-        <p>SYS 2001, APMA 3100, and APMA 3120 or equivalent.
-        It is recommended that students have a basic command of linear algebra, calculus, and statistics. We will use R for data analysis and R Studio for our programming sessions. Student are encourage to familiarize themselves with <a href="https://www.datacamp.com/courses/free-introduction-to-r">R programming</a>, <a href="https://r4ds.had.co.nz/index.html"> R for Data Science</a>, and <a href="https://www.rstudio.com/"> R Studio</a>.
+        <p>SYS 2001, APMA/MATH 3100, and APMA/STAT 3120 or equivalent (you have a question of what is equivalent, please write to Professor Mortveit and Gabe).
+        It is recommended that students have a basic command of linear algebra, calculus, probability, and statistics. We will use Python for simulation and VS Code for our programming sessions. Student are encouraged to familiarize themselves with <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Python programming</a>, <a href="https://simpy.readthedocs.io/en/latest/simpy_intro/index.html"> SimPy</a> or <a href = https://salabim.org/manual/salabim.pdf> Salabim </a>, and <a href="https://code.visualstudio.com/docs"> VS Code</a>. 
+        Some Reviews that may be helpful are available at <a href="https://www.youtube.com/playlist?list=PL3nE1Yo1b4CpcEOgS3s80YUys7nGRqVPM"> A Sufficient Review of Probability (APMA 3100) for Engineers </a> and <a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr"> A Sufficient Review of Statistics (APMA 3120) </a>.
   </p>
       </div>
 
       <div class="col-6 p-2" id="textbook" style="padding-top: 2 em;">
-  <strong><b>Textbook:</b></strong> 
-          <p>No required textbook, but students are encouraged to read chapters from: 
+  <strong><b>Recommended Textbooks:</b></strong> 
+          <p> Averill M. Law (2013) Simulation Modeling & Analysis (5th edition), and Modelling and Simulation by Henning Mortveit and Gabriel Lawrence (available at <a href="https://github.com/Gabriel-vzh2vs/Modelling-And-Simulation-Public-Release"> Github </a>), but , but students may be recommended to read chapters from:
     <ul>
-    <li><a href="http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf"> Linear Models with R </a> by Julian Faraway.</li>
-    <li><a href="https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf">An Introduction with Statistical Learning </a> by Gareth James and et. al.</li>
-    <li><a href="https://d1b10bmlvqabco.cloudfront.net/attach/is282rqc4001vv/is6ccr3fl0e37q/iwfnjvgvl53z/Michael_H_Kutner_Christopher_J._Nachtsheim_JohnBookFi.org.pdf">Applied Linear Statistical Models</a>  by Michael H. Kutner, Christopher J. Nachtsheim, John Neter. </li>
-    <li>Using R for Introductory Statistics, <a href="http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf"> simpleR </a> by John Verzani.</li>
+    <li><a href="https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcHaG1N6dRtHtkrEwyCO4X0B9cGUjsPYzcGWsV1u2vwSaw?e=4Lg4tf"> Discrete Event Simulation, 5th Edition</a> by Banks and et. al.</li>
+    <li><a href="https://artowen.su.domains/mc/"> Monte Carlo Theory, Methods, and Examples </a> by Art B. Owen</li>
+    <li><a href="https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcsQuG4zn_hErNIv2cHHhCIBGnLa8hG6PyKXppUVQPHGEw?e=ORL1i2"">Hands-On Simulation Modelling with Python </a> by Giuseppe Ciaburro </li>
+    <li>Using R for Introductory Statistics, <a href="http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf"> Simulation: A Modeler's Approach </a> by James R. Thompson.</li>
           </ul>
     </p>
       </div>
@@ -160,7 +152,7 @@
         </thead>
         <tbody>
         <tr>
-          <td>Tue, Jan 13th</td>
+          <td>Tues, Jan 13th</td>
           <td>
             Lecture: Introduction to Modelling and Simulation 
             Lab: Software Installation, Course Overview, Demo <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
@@ -169,7 +161,7 @@
         </tr>
   
         <tr>
-          <td>Thurs, Jan 15th</td>
+          <td>Thur, Jan 15th</td>
           <td>
             Visualization <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -177,7 +169,7 @@
         </tr>
 
         <tr>
-          <td>Wed, Aug 31st</td>
+          <td>Tues, Jan 20th</td>
           <td>
             Visualization <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -188,7 +180,7 @@
         </tr>
         
          <tr>
-          <td>Mon, Sep 5th</td>
+          <td>Thur, Jan 22nd</td>
           <td>
             Visualization <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -196,7 +188,7 @@
         </tr>
 
         <tr>
-          <td>Wed, Sep 7th</td>
+          <td>Tues, Jan 27th</td>
           <td>
             Extremes <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -205,7 +197,7 @@
     
 
         <tr>
-          <td>Mon, Sep 12th</td>
+          <td>Thur, Jan 29th</td>
           <td>
             Principle Components Analysis (PCA) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -213,7 +205,7 @@
         </tr>
 
         <tr>
-          <td>Wed, Sep 14th</td>
+          <td>Tues, Feb 3rd</td>
           <td>
             Principal Components Analysis (PCA) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -233,7 +225,7 @@
         </tr>
 
         <tr>
-          <td>Mon, Sep 19th</td>
+          <td>Thurs, Feb 5th</td>
           <td>
             RDM Notebooks/PCA Exercise <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -241,7 +233,7 @@
         </tr>
 
         <tr>
-          <td>Wed, Sep 21st</td>
+          <td>Tues, Feb 10th</td>
           <td>
             Multiple Linear Regression (MLR) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -249,7 +241,7 @@
         </tr>
 
         <tr>
-          <td>Mon, Sep 26th</td>
+          <td>Thur, Feb 13th</td>
           <td>
             Multiple Linear Regression (MLR) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -257,7 +249,7 @@
         </tr>
 
         <tr>
-          <td>Wed, Sep 28th</td>
+          <td>Wed, Feb 17th</td>
           <td>
             Multiple Linear Regression (MLR) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -277,13 +269,13 @@
         </tr>
           
         <tr class="noclass">
-          <td>Mon, Oct 3rd</td>
-          <td>No Class -- Fall Break </td>
+          <td>Tues, Feb 24rd</td>
+          <td>Worm </td>
           <td class="text-center" colspan="8"></td>
         </tr>
 
         <tr>
-          <td>Wed, Oct 5th</td>
+          <td>Thurs, Feb 26th</td>
           <td>
             Multiple Linear Regression (MLR) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
           </td>
@@ -296,227 +288,170 @@
             <div class="mt-1 p-0"><strong>Friday October 7th, 9:00am (ET).</strong></div>
           </td>
         </tr>
-
-        <tr>
-          <td>Mon, Oct 10th</td>
-          <td>
-            Multiple Linear Regression (MLR)
+                  
+        <tr class="exam">
+          <td>Thurs February 25th</td>
+          <td class="text-center" colspan="8">
+            <strong> Midterm Exam (in-person or accommodated)</strong>
           </td>
+        </tr> 
+
+        <tr class="noclass">
+          <td>Tues, March 2nd</td>
+          <td>No Lab nor Lecture -- Spring Break!</td>
+          <td class="text-center" colspan="8"></td>
         </tr>
 
-          <tr>
-          <td><strong>Wed, Oct 12th</strong></td>
-          <td>
-             Project 1 Group Time
-          </td>
+        <tr class="noclass">
+          <td>Thurs, March 5th</td>
+          <td>No Lab nor Lecture -- Spring Break!</td>
           <td class="text-center" colspan="8"></td>
         </tr>
         
         <tr class="assignment">
-          <td><strong>Sunday, Oct 16th, 11:59pm (ET)</strong></td>
+          <td><strong>, Oct 16th, 11:59pm (ET)</strong></td>
           <td class="text-center" colspan="8">
             <strong> Due </strong> Lab 3 :  Multiple Linear Regression Lab 
           </td>
         </tr>  
 
         <tr>
-          <td>Mon, Oct 17th</td>
+          <td>Tues, March 10th</td>
           <td>
-            Midterm Review
-          </td>
-          <td class="text-center" colspan="8"></td>
-        </tr>
-          
-        <tr class="exam">
-          <td>Wed Oct 19th - Fri Oct, 21st, 22nd</td>
-          <td class="text-center" colspan="8">
-            <strong>Midterm Exam (virtually)</strong>
-          </td>
-        </tr> 
-          
-        <tr class="assignment">
-          <td><strong>Friday, Oct 21st, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="10">
-            <strong>Due </strong>Lab 4 : Practice Midterm Review Lab
-            
-          </td>
-        </tr>  
-
-        <tr>
-          <td>Mon, Oct 24th</td>
-          <td>
-            Generalized Linear Models (GLM) <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
-          </td>
-        </tr>
-
-        <tr>
-          <td>Wed, Oct 26th</td>
-          <td>
-            Project 1 Group Time <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
-          </td>
-          <td class="text-center" colspan="8">
-            Release Lab 5
-            <div class="mt-1 p-0"><strong>Friday October 28th, 9:00am (ET).</strong></div>
-          </td>
-    
-        </tr>
-          
-        <tr class="assignment">
-          <td><strong>Sunday, Oct 30th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-            <strong>Due </strong>Project 1
-          </td>
-        </tr>  
-
-
-        <tr>
-          <td>Mon, Oct 31st</td>
-          <td>
-            Generalized Linear Models (GLM)
-          </td>
-    <td class="text-center" colspan="8"></td>
-        </tr>
-    
-        
-
-        <tr>
-          <td>Wed, Nov 2nd</td>
-          <td>
-            Generalized Linear Models (GLM)<!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
-          </td>
-          <td class="text-center" colspan="8"></td>
-        </tr>
-        
-       
-        <tr>
-          <td>Mon, Nov 7th</td>
-          <td>
-            Generalized Linear Models (GLM) - contest <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+            Fight
           </td>
           <td class="text-center" colspan="8"></td>
         </tr>
 
-         <tr>
-          <td>Wed, Nov 9th</td>
-          <td>
-            Time Series Analysis <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
-          </td>
-          <td class="text-center" colspan="8"></td>
-        </tr>
-          
-          <tr class="assignment">
-          <td><strong>Friday, Nov 11th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-            <strong>Due </strong>Lab 5: Generalized Linear Models
-            
-          </td>
-        </tr>  
-
-         <tr>
-          <td>Mon, Nov 14th</td>
-          <td>
-            CLASS CANCELED <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
-          </td>
-             <td class="text-center" colspan="8"></td>
-        </tr>
-    
         <tr>
-          <td>Wed, Nov 16th</td>
+          <td>Thur, March 12th</td>
           <td>
-           Time Series Analysis
-          </td>
-          <td class="text-center" colspan="4">
-            Release Grad Project
-            <div class="mt-1 p-0">Due <strong>Friday December 16th, 11:59pm (ET).</strong></div>
-          </td>
-          <td class="text-center" colspan="4">
-            Release Lab 6: Time Series
-            <div class="mt-1 p-0"><strong>Friday November 18th, 9:00am (ET).</strong></div>
-          </td>
-        </tr>
-         
-         <tr>
-          <td>Mon, Nov 21st</td>
-          <td>
-            Time Series Analysis <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+            Win
           </td>
           <td class="text-center" colspan="8"></td>
         </tr>
 
-      
-        <tr class="noclass">
-          <td>Wed, Nov 23rd</td>
-          <td>No Class -- Thanksgiving</td>
+        <tr>
+          <td>Tue, March 17th</td>
+          <td>
+            Win
+          </td>
           <td class="text-center" colspan="8"></td>
         </tr>
 
-        
         <tr>
-          <td>Mon, Nov 28th</td>
+          <td>Thur, March 19th</td>
           <td>
-            Time Series Analysis <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+            Win
           </td>
-          <td class="text-center" colspan="8">
-            Release Project 2
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Tue, March 24th</td>
+          <td>
+            Win
           </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Thur, March 26th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
         </tr>
 
 
         <tr>
-          <td>Wed, Nov 30th</td>
+          <td>Tues, March 31st</td>
           <td>
-             Project 2 Group Time <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+            Win
           </td>
-          <td class="text-center" colspan="8">
-            Release Lab 7: Final Review Lab (Bonus)
-            <div class="mt-1 p-0"><strong>Friday December 2nd, 9:00am (ET).</strong></div>
-          </td>
+          <td class="text-center" colspan="8"></td>
         </tr>
 
         <tr>
-          <td>Mon, Dec 5th</td>
+          <td>Thur, April 2nd</td>
           <td>
-            Course Recap and Final Exam Review <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+            Win
           </td>
+          <td class="text-center" colspan="8"></td>
         </tr>
-          
-          <tr class="assignment">
-          <td><strong>Monday, Dec 5th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-            <strong>Due </strong>Lab 6: Time Series
-            
+
+
+        <tr>
+          <td>Tues, April 7th</td>
+          <td>
+            Win
           </td>
-        </tr>  
-          
-          <tr class="assignment">
-          <td><strong>Sunday, Dec 11th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-            <strong>Due </strong>Project 2
-          </td>
-        </tr> 
-    
-  <tr class="assignment">
-          <td><strong>December, Dec 16th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-              <strong>Due </strong> Lab 7 : Final Exam Review (Bonus)
-            <!--[<a href="">Colab</a>]. -->
-            <!-- <div class="mt-1 p-0">Due <strong>Friday December 16th, 11:59pm (ET).</strong></div> -->
-          </td>
+          <td class="text-center" colspan="8"></td>
         </tr>
+
+
+        <tr>
+          <td>Thur, April 9th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Tues, April 14th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Thur, April 16th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Tues, April 21st</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Thur, April 23rd</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Tues, April 28th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+        <tr>
+          <td>Thur, April 30th</td>
+          <td>
+            Win
+          </td>
+          <td class="text-center" colspan="8"></td>
+        </tr>
+
+
 
         <tr class="exam">
-          <td><strong>Thur Dec 8th - Fri Dec 16th</strong></td>
+          <td><strong>Mon 4th at 2:00pm - 5:00 pm EDT </strong></td>
           <td class="text-center" colspan="8">
-            <strong>Final Exam (virtually)</strong>
-          </td>
-        </tr>
-          
-          <tr class="assignment">
-          <td><strong>December, Dec 16th, 11:59pm (ET)</strong></td>
-          <td class="text-center" colspan="8">
-              <strong>Due </strong> Grad Final Project
-            <!--[<a href="">Colab</a>]. -->
-            <!-- <div class="mt-1 p-0">Due <strong>Friday December 16th, 11:59pm (ET).</strong></div> -->
+            <strong>Final Exam (in-person)</strong>
           </td>
         </tr>
 
@@ -531,60 +466,58 @@
   <strong><b>Grading: </b></strong> 
         <!--To be announced officially on first day of class. -->
         <ul> 
-          <li>Weekly labs: 20% (lowest dropped)</li>
-          <li>Hands-On Activities: 10%</li>
-          <li>Projects: 30%</li>
-          <li>Midterm Exam: 20%</li>
-          <li>Final Exam (4021) /Final Project (6021): 20%</li>
-          <li>Class Participation: +% (extra) -- includes synchronous participation + Piazza + office hours participation.</li>
+          <li>Homeworks: 25%</li>
+          <li>Labs: 10% </li>
+          <li>Hands-On Activities and Prelabs: 5%</li>
+          <li>Projects (Mid-Semester and Final): 20% </li>
+          <li>Midterm Exam: 15%</li>
+          <li>Final Exam: 25% </li>
+          <li>Class Participation: +% (extra) -- includes synchronous participation and office hours participation.</li>
         </ul>
       </p>
   
-      <p id="labs" style="padding-top: 2 em;">
-        <strong><b>Labs: </b></strong>
-        <p>On Friday morning at 9 am ET, bi-weekly laboratory assignments based upon course and laboratory notes will be posted via the Tests &amp; Quizzes feature on the course Collab site. 
-        These assignments provide exercises in R programming that supplement the material covered in class and provide the foundation for the projects. 
-        Each lab assignment requires students to program in R and analyze a supplied data set. 
-        <br /> <br />The assignments are designed to assess your knowledge on statistical modeling techniques and their mechanics. 
-        These assignments must be done individually, include an honor pledge, and be completed by Friday night at 11:59 pm ET, typically two weeks later. 
-        While there is no time limit for these assignments, they are designed not to take more than 50 minutes. Laboratory sessions are excellent practice for exams and real-world analysis under time constraints. 
-        At the end of the semester, the lowest grade on the lab assignments will be dropped. Additionally, if you complete the Bonus Lab, it will replace your next lowest lab.</p>
+      <p id="homeworks" style="padding-top: 2 em;">
+        <strong><b>Homework: </b></strong>
+        <p>On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. 
+        These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects. 
+        <br /> <br />The assignments are designed to assess your knowledge on modelling techniques and their mechanics. 
+        These assignments should be done individually or with assistance in Office Hours, include an honor pledge, and be completed by Friday night at 11:59 pm ET, typically a week later. 
+        While there is no time limit for these assignments, they are designed not to take more than 3 days. Laboratory sessions are excellent practice for exams and real-world analysis and should be started early. </p>
+      </p>
+
+        <p id="labs" style="padding-top: 2 em;">
+        <strong><b>Homework: </b></strong>
+        <p>On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. 
+        These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects. 
+        <br /> <br />The assignments are designed to assess your knowledge on modelling techniques and their mechanics. 
+        These assignments must be done individually or with assistance in Office Hours, include an honor pledge, and be completed by Friday night at 11:59 pm ET, typically a week later. 
+        While there is no time limit for these assignments, they are designed not to take more than 3 days. Laboratory sessions are excellent practice for exams and real-world analysis and should be started early. </p>
       </p>
   
       <p id="hands-on activities" style="padding-top: 2 em;">
         <strong><b>Hands-On Activities: </b></strong>
         <p>Hands-on activities will be used throughout the course to allow you to practice the methods covered in class, recognize opportunities to apply them in your own work, and discover their shortcomings.
-        Students can still participate in the activities if participating online and will submit their activity on Collab under "Assignments" for pass/fail credit.</p>
+        Students can still participate in the activities if participating online and will submit their activity on Collab under "Assignments".</p>
       </p>
   
       <p id="projects" style="padding-top: 2 em;">
         <strong><b>Projects: </b></strong>
-        <p>The class will have two group projects on real-world topics and data sets. These exercises provide a real-world context for what we learn and are open-ended problem solving experiences that illustrate the concepts of evidence-informed systems engineering. 
-        Hence, they provide the opportunity to demonstrate understanding of class material using real data to solve a goal-directed problem. Projects are designed to teach students how to perform a detailed analysis as well as how to proficiently communicate results as in a technical document or client report.</p>
+        <p>The class will have two group projects on real-world topics and data sets. These exercises provide a real-world context for what we learn and are open-ended problem solving experiences that illustrate the concepts of modelling and simulation in practice.
+        Hence, they provide the opportunity to demonstrate understanding of class material using real data to solve a goal-directed problem. Projects are designed to teach students how to perform a detailed analysis as well as how to proficiently communicate results as in a technical document and presentation. </p>
       </p>
   
-      <p id="exams" style="padding-top: 2 em;">
+      <p id="Exams" style="padding-top: 2 em;">
         <strong><b>Exams: </b></strong>
         <p>Exams are based entirely on classroom notes and discussions, readings, projects, and laboratory assignments. Each exam will be open book requiring analytical problem solving. 
           The final examination is cumulative. Example questions for both exams are in the in-progress Textbook.</p>
   </p>
-  
-  <p id="final project" style="padding-top: 2 em;">
-        <strong><b>Final Project<strong> </strong>: </b></strong>
-        <p>The final project will be a detailed data analysis of a topic and dataset of your choosing. We encourage you to do something related to your research and are happy to work with you in selecting a data source and defining a project. 
-        You can also choose to extend any one of the projects. For instance, you could choose to do an extended analysis of train accidents. 
-        You must submit your topic description and data sources for your final project at the specified date on Collab. In your final project, you must show competence in a subset of topics discussed in the class. 
-        Specifically you must organize your work according to the principles of Evidence Informed Systems Engineering and use two methods from the following topics: visualization, principal components, multiple linear regression, generalized linear models, time series analysis, bootstrapping, and advanced topics. </p>
-  </p>
-    </div>
-  
-    
+
     <div class="section policies-text"  id = "policies" style="padding-top: 4em;">
   <h4> Course Policies </h4>
   <hr>
        <p id="submission" style="padding-top: 2em;">
   <strong><b>Submission and Late Submission Policy: </b></strong> 
-        <p>On the day a project is due you must submit an electronic copy <strong>in pdf (NOT doc or docx, etc.)</strong> along with source code on the Collab site and pledge your submission.
+        <p>On the day any assignment is due you must submit an electronic copy <strong>in pdf (NOT doc or docx, etc.)</strong> along with source code on the GradeScope site and pledge your submission.
         No late assignments will be accepted in this class, unless the student has procured special accommodations for warranted circumstances. <br />
         <br /> We will be accommodating also due to exceptional circumstances but this is a large class so please make sure this is truly warranted and contact us as soon as possible.
         In any case you will do better to submit an incomplete assignment rather than a late one.</p>
@@ -596,7 +529,7 @@
         <p>We try to create a safe environment, not only for our students, but also for our faculty and our staff. To that end, please stay home or in 
           your dorm room if you are ill with or are symptomatic for any communicable disease. We would rather you stay home and work something out with 
           us for making up work or taking an exam than for an illness to spread through the class. If you believe you are sick, immediately contact Student 
-          Health for appropriate treatment or testing at <a href="https://www.healthyhoos.virginia.edu/">HealthyHoos</a> . </p>
+          Health for appropriate treatment or testing at <a href="https://www.healthyhoos.virginia.edu/">HealthyHoos</a>. </p>
       </p>
      
       </p>
@@ -606,7 +539,7 @@
           when sincerely held religious beliefs or observances conflict with academic requirements.</p>
         <p>Students who wish to request academic accommodation for a religious observance should submit their request to us by private message on Piazza
           as far in advance as possible. Students who have questions or concerns about academic accommodations for religious observance or religious beliefs may contact 
-          the University’s Office for Equal Opportunity and Civil Rights (EOCR) at <a href="mailto:UVAEOCR@virginia.edu">UVAEOCR@virginia.edu</a> or 434-924-3200.</p>
+          the University's Office for Equal Opportunity and Civil Rights (EOCR) at <a href="mailto:UVAEOCR@virginia.edu">UVAEOCR@virginia.edu</a> or 434-924-3200.</p>
       </p>
 
       <p id="accessibility" style="padding-top: 2em;">
@@ -689,7 +622,7 @@
     </div>
     
 <p id="discrimination" style="padding-top: 2em;">
-  <strong><b>Harrassment, Discrimination and Interpersonal Violence:</b></strong>
+  <strong><b>Harassment, Discrimination and Interpersonal Violence:</b></strong>
 <p>The University of Virginia is dedicated to providing a safe and equitable learning environment for all students. 
   If you or someone you know has been affected by power-based personal violence, more information can be found on the UVA Sexual Violence website 
   that describes reporting options and resources available - <a href="www.virginia.edu/sexualviolence">www.virginia.edu/sexualviolence</a>.</p>
@@ -724,5 +657,5 @@
 </body>
 </html>
 
-<!-- Copyright Sonia Baee - Fall 2021 -->
-<!-- Web template from Dr. Vicente Ordonez -->
+<!-- Copyright Gabriel Lawrence - Spring 2025 -->
+<!-- Web template from Dr. Vicente Ordonez & Sonia Baee -->
