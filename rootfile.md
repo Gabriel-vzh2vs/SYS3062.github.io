@@ -1,4 +1,4 @@
- Simulation and Modelling (SYS 3062)     
+ Simulation and Modelling (SYS 3062)
 
 ![](images/uva-logo.png)
 
@@ -6,7 +6,7 @@
 
 ![](images/Mortveit_headshot.png) ![](images/GabeCropped.jpg) ![](images/maddie.jpeg) ![](images/tracey.jpeg)
 
-Professor: [**Henning Mortveit**](https://engineering.virginia.edu/faculty/henning-s-mortveit) (Henning.Mortveit at virginia.edu), Office Hours: TBD in Olsson Thur TBD on TBD
+Professor: [**Henning S Mortveit**](https://engineering.virginia.edu/faculty/henning-s-mortveit) (Henning.Mortveit at virginia.edu), Office Hours: TBD in Olsson 102A Thur TBD on TBD
 
 Lab Instructor: [**Gabriel (Gabe) Lawrence**](https://www.linkedin.com/in/gabriel-lawrence-ort1/) (gabeL at virginia.edu), Office Hours: TBD in Olsson TND, Thur 10:30am-12pm on Zoom.
 
@@ -32,9 +32,38 @@ Discussion Forum: [Piazza for SYS 3062]( https://piazza.com/class/tbd)
 
 ****Course Description:****
 
-A first course in the theory & practice of discrete-event and continuous simulation. Monte Carlo methods, generating random numbers & variates, spreadsheet add-ins & applications, sampling distributions & confidence intervals, input analysis & distribution fitting. Discrete-event dynamic systems, modeling, simulation logic & data structures, output analysis, model verification & validation, comparing alternative systems, simulation optimization, case studies. Prerequisite: CS 2100, APMA 3100, and APMA 3120.  
-  
-The modeling and simulation techniques and methods we might cover include Monte Carlo Methods, and Distribution Modelling, Output Analysis, Statistical Testing and Correction Methods (i.e: Test for Randomness, and Bonferroni Correction), Discrete Event Simulation, Agent-Based Modelling, System Dynamics, and Debugging. We hope that our course provides a foundation for future learning and application.  
+This is a first course in theory and practice for modeling and
+simulation, two mainstays of system engineering. The course covers
+fundamental principles and paradigms for modeling stochastic systems
+starting from model verification & validation, types of uncertainties,
+and examples of model types. It includes the following:
+
+- Techniques and supporting theory for Monte Carlo based simulation
+  analytics (aka "output analysis") for estimating means and variances
+  of system variables. This incorporates construction of single
+  confidence intervals with adjustmentments for skewness, and
+  multiple, simultaneous confidence intervals with the Bonferroni
+  correction. Statistical independence.
+
+- Distribution modeling (aka "input analysis") which is used to model
+  random variables of the system.
+
+- Simulation logic, data structures, and architectures.
+
+- Modeling and simulation of queueing networks.
+
+
+
+of discrete-event and
+continuous simulation. Monte Carlo methods, generating random numbers
+& variates, spreadsheet add-ins & applications, sampling distributions
+& confidence intervals, input analysis & distribution
+fitting. Discrete-event dynamic systems, modeling, simulation logic &
+data structures, output analysis, model verification & validation,
+comparing alternative systems, simulation optimization, case
+studies. Prerequisite: CS 2100, APMA 3100, and APMA 3120.
+
+The modeling and simulation techniques and methods we might cover include Monte Carlo Methods, and Distribution Modelling, Output Analysis, Statistical Testing and Correction Methods (i.e: Test for Randomness, and Bonferroni Correction), Discrete Event Simulation, Agent-Based Modelling, System Dynamics, and Debugging. We hope that our course provides a foundation for future learning and application.
 
 ****Learning Objectives:****
 
@@ -63,7 +92,7 @@ Date
 
 Topic
 
- 
+
 
 Tues, Jan 13th
 
@@ -245,14 +274,14 @@ Win
 
 ****Homework:****
 
-On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects.  
-  
+On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects.
+
 The assignments are designed to assess your knowledge on modelling techniques and their mechanics. These assignments should be done individually or with assistance in Office Hours, include an honor pledge, and be completed by Friday night at 11:59 pm ET, typically a week later. While there is no time limit for these assignments, they are designed not to take more than 3 days. Laboratory sessions are excellent practice for exams and real-world analysis and should be started early.
 
 ****Homework:****
 
-On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects.  
-  
+On Tuesday morning at 10:45 am ET, bi-weekly homework based upon course and laboratory notes will be posted via the Assignments feature on the course Gradescope site. These assignments provide exercises based on the material covered in class and provide the foundation for the exams and projects.
+
 The assignments are designed to assess your knowledge on modelling techniques and their mechanics. These assignments must be done individually or with assistance in Office Hours, include an honor pledge, and be completed by Friday night at 11:59 pm ET, typically a week later. While there is no time limit for these assignments, they are designed not to take more than 3 days. Laboratory sessions are excellent practice for exams and real-world analysis and should be started early.
 
 ****Hands-On Activities:****
@@ -273,8 +302,8 @@ Exams are based entirely on classroom notes and discussions, readings, projects,
 
 ****Submission and Late Submission Policy:****
 
-On the day any assignment is due you must submit an electronic copy **in pdf (NOT doc or docx, etc.)** along with source code on the GradeScope site and pledge your submission. No late assignments will be accepted in this class, unless the student has procured special accommodations for warranted circumstances.  
-  
+On the day any assignment is due you must submit an electronic copy **in pdf (NOT doc or docx, etc.)** along with source code on the GradeScope site and pledge your submission. No late assignments will be accepted in this class, unless the student has procured special accommodations for warranted circumstances.
+
 We will be accommodating also due to exceptional circumstances but this is a large class so please make sure this is truly warranted and contact us as soon as possible. In any case you will do better to submit an incomplete assignment rather than a late one.
 
 ****Illness:****
@@ -293,8 +322,8 @@ It is our goal to create a learning experience that is as accessible as possible
 
 ****Academic Integrity Statement:****
 
-"The School of Engineering and Applied Science relies upon and cherishes its community of trust. We firmly endorse, uphold, and embrace the University’s Honor principle that students will not lie, cheat, or steal, nor shall they tolerate those who do. We recognize that even one honor infraction can destroy an exemplary reputation that has taken years to build. Acting in a manner consistent with the principles of honor will benefit every member of the community both while enrolled in the Engineering School and in the future. Students are expected to be familiar with the [university honor code](http://honor.virginia.edu/academic-fraud), including the section on academic fraud."  
-  
+"The School of Engineering and Applied Science relies upon and cherishes its community of trust. We firmly endorse, uphold, and embrace the University’s Honor principle that students will not lie, cheat, or steal, nor shall they tolerate those who do. We recognize that even one honor infraction can destroy an exemplary reputation that has taken years to build. Acting in a manner consistent with the principles of honor will benefit every member of the community both while enrolled in the Engineering School and in the future. Students are expected to be familiar with the [university honor code](http://honor.virginia.edu/academic-fraud), including the section on academic fraud."
+
 In summary, if assignments are individual then no two students should submit the same source code -- any overlap in source code of sufficient similarity will be flagged as failure to abide to the Honor Code. You can discuss, you can share resources, you can talk about the assignment but not share code as this incurs an honor code violation. Regardless of circumstances, we will assume that any source code, text, or images submitted alongside reports or projects are of the authorship of the individual students unless otherwise explicitly stated through appropriate means. Any missing information regarding sources will be regarded as a failure to abide by the academic integrity statement even if that was not the intent. Please be careful clearly stating what is your original work and what is not in all assignments.
 
 #### Additional Resources
