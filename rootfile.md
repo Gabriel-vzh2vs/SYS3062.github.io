@@ -34,40 +34,58 @@ Discussion Forum: [Piazza for SYS 3062]( https://piazza.com/class/tbd)
 
 This is a first course in theory and practice for modeling and
 simulation, two mainstays of system engineering. The course covers
-fundamental principles and paradigms for modeling stochastic systems
-starting from model verification & validation, types of uncertainties,
-and examples of model types. It includes the following:
+fundamental principles, paradigms and practices for modeling
+stochastic systems and analyzing them through computational
+experiments (aka simulations). It is a course integrating lectures and
+lab sessions covering:
 
-- Techniques and supporting theory for Monte Carlo based simulation
-  analytics (aka "output analysis") for estimating means and variances
-  of system variables. This incorporates construction of single
-  confidence intervals with adjustmentments for skewness, and
-  multiple, simultaneous confidence intervals with the Bonferroni
-  correction. Statistical independence.
+- An introduction to modeling, model verification & validation, types
+  of uncertainties, and examples of model types. Modeling and
+  simulation through the lens of stochastic processes.
 
-- Distribution modeling (aka "input analysis") which is used to model
-  random variables of the system.
+- Techniques and supporting theory (SLLN, CLT) for Monte Carlo based
+  simulation analytics (aka "output analysis") for estimating means
+  and variances of system variables. Statistical independence and lack
+  thereof.
 
-- Simulation logic, data structures, and architectures.
+- Spreadsheet-based simulations using the XLRisk plugin.
+
+- Construction of single confidence intervals with adjustmentments for
+  skewness, and multiple, simultaneous confidence intervals with the
+  Bonferroni correction.
+
+- The process of distribution modeling (aka "input analysis") for
+  capturing random variables of the system. Goodness of
+  fit through the $\chi^2$- and KS-tests. The Phitter tool.
+
+- Simulation logic, common data structures, platforms and
+  architectures (e.g., HLA, cloud solutions). Pipelines and
+  workflows. Data management.
 
 - Modeling and simulation of queueing networks.
 
+- Generating random numbers & variates, and the
+
+- Comparing alternative systems, simulation optimization, case
+  studies. (this is a leftover item from the SIS course description)
+
+- Selected advanced topics (e.g., Agent-Based Modelling, state machines)
 
 
-of discrete-event and
-continuous simulation. Monte Carlo methods, generating random numbers
-& variates, spreadsheet add-ins & applications, sampling distributions
-& confidence intervals, input analysis & distribution
-fitting. Discrete-event dynamic systems, modeling, simulation logic &
-data structures, output analysis, model verification & validation,
-comparing alternative systems, simulation optimization, case
-studies. Prerequisite: CS 2100, APMA 3100, and APMA 3120.
+The lab will additionally include topics such as debugging, setting up
+Python environments. VSCode with copilot.
 
-The modeling and simulation techniques and methods we might cover include Monte Carlo Methods, and Distribution Modelling, Output Analysis, Statistical Testing and Correction Methods (i.e: Test for Randomness, and Bonferroni Correction), Discrete Event Simulation, Agent-Based Modelling, System Dynamics, and Debugging. We hope that our course provides a foundation for future learning and application.
+Some words about Python and Excel. And some words about Simio,
+Flexsim, Anylogic, Arena.
+
 
 ****Learning Objectives:****
 
-In your professional careers you will undoubtedly encounter projects and problems where simulation is an option for a solution. The purpose of this course is to provide you with a foundation covering theory and practice for stochastic simulations as a method for the design and analysis of systems.
+In your professional careers you will undoubtedly encounter projects
+and problems where simulation is an option for a solution. The purpose
+of this course is to provide you with a foundation covering theory and
+practice for stochastic simulations as a method for the design and
+analysis of systems.
 
 ****Prerequisites:****
 
