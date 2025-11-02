@@ -33,38 +33,43 @@ Discussion Forum: [Piazza for SYS 3062]( https://piazza.com/class/tbd)
 ****Course Description:****
 
 This is a first course in theory and practice for modeling and
-simulation, two mainstays of system engineering. The course covers
-fundamental principles, paradigms and practices for modeling
-stochastic systems and analyzing them through computational
-experiments (aka simulations). It is a course integrating lectures and
-lab sessions covering:
+simulation, two mainstays of system engineering. The course provides a
+solid foundation covering fundamental principles, paradigms, and
+practices for modeling and analyzing stochastic systems through
+computational experiments, aka _simulations_. It is a course
+integrating theory and practice through lectures and lab sessions with
+topics including:
 
 - An introduction to modeling, model verification & validation, types
   of uncertainties, and examples of model types. Modeling and
   simulation through the lens of stochastic processes.
 
 - Techniques and supporting theory (SLLN, CLT) for Monte Carlo based
-  simulation analytics (aka "output analysis") for estimating means
+  simulation analytics (aka "output analysis") used to estimate means
   and variances of system variables. Statistical independence and lack
   thereof.
 
 - Spreadsheet-based simulations using the XLRisk plugin.
 
 - Construction of single confidence intervals with adjustmentments for
-  skewness, and multiple, simultaneous confidence intervals with the
-  Bonferroni correction.
+  skewness. Construction of multiple, simultaneous confidence
+  intervals and the Bonferroni correction.
 
 - The process of distribution modeling (aka "input analysis") for
-  capturing random variables of the system. Goodness of
-  fit through the $\chi^2$- and KS-tests. The Phitter tool.
+  capturing random variables of the system. Goodness of fit assessment
+  through the $\chi^2$- and KS-tests. The Phitter tool.
 
 - Simulation logic, common data structures, platforms and
   architectures (e.g., HLA, cloud solutions). Pipelines and
   workflows. Data management.
 
-- Modeling and simulation of queueing networks.
+- Modeling and simulation of queueing systems.
 
-- Generating random numbers & variates, and the
+- Random number generators (RNGs) and their role in simulation-based
+  system analysis. Assessing the quality of RNGs. Pitfalls.
+
+- Techniques for generating variates from distributions other than
+  $U(0,1)$.
 
 - Comparing alternative systems, simulation optimization, case
   studies. (this is a leftover item from the SIS course description)
@@ -72,8 +77,9 @@ lab sessions covering:
 - Selected advanced topics (e.g., Agent-Based Modelling, state machines)
 
 
-The lab will additionally include topics such as debugging, setting up
-Python environments. VSCode with copilot.
+The lab is an integral part of the course. Will additionally include
+topics such as debugging, setting up Python environments. VSCode with
+copilot.
 
 Some words about Python and Excel. And some words about Simio,
 Flexsim, Anylogic, Arena.
@@ -99,6 +105,11 @@ Averill M. Law (2013) Simulation Modeling & Analysis (5th edition), and Modellin
 *   [Monte Carlo Theory, Methods, and Examples](https://artowen.su.domains/mc/) by Art B. Owen
 *   [Hands-On Simulation Modelling with Python](https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcsQuG4zn_hErNIv2cHHhCIBGnLa8hG6PyKXppUVQPHGEw?e=ORL1i2) by Giuseppe Ciaburro
 *   Using R for Introductory Statistics, [Simulation: A Modeler's Approach](http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf) by James R. Thompson.
+
+#### Exams
+
+Monday May 4 - 2-5pm
+
 
 #### Schedule
 
