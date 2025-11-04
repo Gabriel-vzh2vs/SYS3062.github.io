@@ -32,28 +32,31 @@ Discussion Forum: [Piazza for SYS 3062]( https://piazza.com/class/tbd)
 
 ****Course Description:****
 
-This is a first course in theory and practice for modeling and
-simulation, two mainstays of system engineering. The course provides a
-solid foundation covering fundamental principles, paradigms, and
-practices for modeling and analyzing stochastic systems through
-computational experiments, aka _simulations_. It is a course
-integrating theory and practice through lectures and lab sessions with
-topics including:
+This course is an introductdion to theory and practice for modeling
+and simulation, two mainstays of system engineering. The course
+provides a broad foundation covering fundamental principles,
+paradigms, and practices for modeling and analyzing stochastic systems
+through computational experiments, aka _simulations_. It is a course
+integrating theory and practice through lectures and lab sessions
+across topics such as the following:
 
-- An introduction to modeling, model verification & validation, types
-  of uncertainties, and examples of model types. Modeling and
-  simulation through the lens of stochastic processes.
+- Modeling, model verification & validation, types of uncertainties,
+  with examples of types of models. Modeling and simulation through
+  the lens of stochastic processes.
 
-- Techniques and supporting theory (SLLN, CLT) for Monte Carlo based
-  simulation analytics (aka "output analysis") used to estimate means
-  and variances of system variables. Statistical independence and lack
+- Techniques theory (SLLN, CLT) for Monte Carlo based simulation
+  analytics (aka "output analysis") used to estimate means and
+  variances of system variables. Statistical independence and lack
   thereof.
-
-- Spreadsheet-based simulations using the XLRisk plugin.
 
 - Construction of single confidence intervals with adjustmentments for
   skewness. Construction of multiple, simultaneous confidence
   intervals and the Bonferroni correction.
+
+- Estimating sample size to generate confidence intervals with
+  prescribed tolerances.
+
+- Spreadsheet-based simulations using the XLRisk plugin.
 
 - The process of distribution modeling (aka "input analysis") for
   capturing random variables of the system. Goodness of fit assessment
@@ -63,26 +66,27 @@ topics including:
   architectures (e.g., HLA, cloud solutions). Pipelines and
   workflows. Data management.
 
-- Modeling and simulation of queueing systems.
+- Queueing systems.
 
 - Random number generators (RNGs) and their role in simulation-based
   system analysis. Assessing the quality of RNGs. Pitfalls.
 
-- Techniques for generating variates from distributions other than
-  $U(0,1)$.
+- Generating variates from distributions other than $U(0,1)$.
 
-- Comparing alternative systems, simulation optimization, case
-  studies. (this is a leftover item from the SIS course description)
+- Selected topics, e.g., agent-based modelling, state machines,
+  comparing alternative systems, simulation optimization, case
+  studies.
 
-- Selected advanced topics (e.g., Agent-Based Modelling, state machines)
+The lab is an integral part of the course. The course, mainly in the
+lab, will also cover aspects such as creating and configuring a Python
+environment, a tutorial on the XLRisk Excel plugin, basics of
+debugging in Python, VSCode and Copilot. [Gabe - we can discuss this
+more]
 
-
-The lab is an integral part of the course. Will additionally include
-topics such as debugging, setting up Python environments. VSCode with
-copilot.
-
-Some words about Python and Excel. And some words about Simio,
-Flexsim, Anylogic, Arena.
+Some words about specialized software including Simio, Flexsim,
+Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
+a professional, you may have to become familiar with one of
+these. Also: Brian Park's graduate course uses it.
 
 
 ****Learning Objectives:****
