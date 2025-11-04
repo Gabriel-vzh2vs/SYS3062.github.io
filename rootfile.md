@@ -77,12 +77,15 @@ across topics such as the following:
   comparing alternative systems, simulation optimization, case
   studies.
 
+
+**Lab**
 The lab is an integral part of the course. The course, mainly in the
 lab, will also cover aspects such as creating and configuring a Python
 environment, a tutorial on the XLRisk Excel plugin, basics of
 debugging in Python, VSCode and Copilot. [Gabe - we can discuss this
 more]
 
+**Software**
 Some words about specialized software including Simio, Flexsim,
 Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
 a professional, you may have to become familiar with one of
