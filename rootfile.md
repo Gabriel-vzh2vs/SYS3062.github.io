@@ -74,22 +74,9 @@ across topics such as the following:
 - Generating variates from distributions other than $U(0,1)$.
 
 - Selected topics, e.g., agent-based modelling, state machines,
-  comparing alternative systems, simulation optimization, case
+  comparing alternative systems, simulation optimization; case
   studies.
 
-
-**Lab**
-The lab is an integral part of the course. The course, mainly in the
-lab, will also cover aspects such as creating and configuring a Python
-environment, a tutorial on the XLRisk Excel plugin, basics of
-debugging in Python, VSCode and Copilot. [Gabe - we can discuss this
-more]
-
-**Software**
-Some words about specialized software including Simio, Flexsim,
-Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
-a professional, you may have to become familiar with one of
-these. Also: Brian Park's graduate course uses it.
 
 
 ****Learning Objectives:****
@@ -116,6 +103,22 @@ Averill M. Law (2013) Simulation Modeling & Analysis (5th edition), and Modellin
 #### Exams
 
 Monday May 4 - 2-5pm
+
+
+
+##Lab##
+The lab is an integral part of the course. The course, mainly in the
+lab, will also cover aspects such as creating and configuring a Python
+environment, a tutorial on the XLRisk Excel plugin, basics of
+debugging in Python, VSCode and Copilot. [Gabe - we can discuss this
+more]
+
+**Software**
+Some words about specialized software including Simio, Flexsim,
+Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
+a professional, you may have to become familiar with one of
+these. Also: Brian Park's graduate course uses it.
+
 
 
 #### Schedule
