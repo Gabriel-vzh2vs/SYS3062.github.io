@@ -91,14 +91,43 @@ analysis of systems.
 
 SYS 2001, APMA/MATH 3100, and APMA/STAT 3120 or equivalent (you have a question of what is equivalent, please write to Professor Mortveit and Gabe). It is recommended that students have a basic command of linear algebra, calculus, probability, and statistics. We will use Python for simulation and VS Code for our programming sessions. Student are encouraged to familiarize themselves with [Python programming](https://www.datacamp.com/courses/intro-to-python-for-data-science), [SimPy](https://simpy.readthedocs.io/en/latest/simpy_intro/index.html) or [Salabim](https://salabim.org/manual/salabim.pdf) , and [VS Code](https://code.visualstudio.com/docs). Some Reviews that may be helpful are available at [A Sufficient Review of Probability (APMA 3100) for Engineers](https://www.youtube.com/playlist?list=PL3nE1Yo1b4CpcEOgS3s80YUys7nGRqVPM) and [A Sufficient Review of Statistics (APMA 3120)](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr) .
 
-****Recommended Textbooks:****
+****Textbook:****
 
-Averill M. Law (2013) Simulation Modeling & Analysis (5th edition), and Modelling and Simulation by Henning Mortveit and Gabriel Lawrence (available at [Github](https://github.com/Gabriel-vzh2vs/Modelling-And-Simulation-Public-Release) ), but , but students may be recommended to read chapters from:
+__Course text books:__
 
-*   [Discrete Event Simulation, 5th Edition](https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcHaG1N6dRtHtkrEwyCO4X0B9cGUjsPYzcGWsV1u2vwSaw?e=4Lg4tf) by Banks and et. al.
-*   [Monte Carlo Theory, Methods, and Examples](https://artowen.su.domains/mc/) by Art B. Owen
-*   [Hands-On Simulation Modelling with Python](https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcsQuG4zn_hErNIv2cHHhCIBGnLa8hG6PyKXppUVQPHGEw?e=ORL1i2) by Giuseppe Ciaburro
-*   Using R for Introductory Statistics, [Simulation: A Modeler's Approach](http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf) by James R. Thompson.
+* Averill M. Law (2013) Simulation Modeling & Analysis (5th edition)
+
+* Henning Mortveit and Gabriel Lawrence Modelling and
+  Simulation. Available at
+  [Github](https://github.com/Gabriel-vzh2vs/Modelling-And-Simulation-Public-Release)
+
+__Recommended, supplementary literature:__ NOTE: LINKS MUST BE TAKEN OUT
+
+*   [Discrete Event Simulation, 5th
+    Edition](https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcHaG1N6dRtHtkrEwyCO4X0B9cGUjsPYzcGWsV1u2vwSaw?e=4Lg4tf)
+    by Banks and et. al.
+
+*   [Monte Carlo Theory, Methods, and
+    Examples](https://artowen.su.domains/mc/) by Art B. Owen
+
+*   [Hands-On Simulation Modelling with
+    Python](https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcsQuG4zn_hErNIv2cHHhCIBGnLa8hG6PyKXppUVQPHGEw?e=ORL1i2)
+    by Giuseppe Ciaburro
+
+*   Using R for Introductory Statistics, [Simulation: A Modeler's
+    Approach](http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf)
+    by James R. Thompson.
+
+*   [HOW TO DO SYSTEMS
+     ANALYSIS](https://onlinelibrary.wiley.com/doi/epdf/10.1002/9780470130599)
+     by John E. Gibson William T. Scherer, and William F. Gibson
+
+*   A. Tolk, P. Barry, M. L. Loper, G. Rabadi, W. T. Scherer and
+    L. Yilmaz [Chances and Challenges of ChatGPT and Similar Models
+    for Education in
+    M&S](https://ieeexplore.ieee.org/abstract/document/10408241) 2023
+    Winter Simulation Conference (WSC), San Antonio, TX, USA,
+    pp. 3332-3346, doi: 10.1109/WSC60868.2023.10408241.
 
 #### Exams
 
