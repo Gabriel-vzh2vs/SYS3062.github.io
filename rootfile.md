@@ -142,6 +142,20 @@ environment, a tutorial on the XLRisk Excel plugin, basics of
 debugging in Python, VSCode and Copilot. [Gabe - we can discuss this
 more]
 
+
+****Attendance:****
+Official written attendance will not be taken. Quizzes may be administered unannounced during any lecture hour, and online surveys will be conducted in class. A student who misses a quiz will not receive credit and will not be offered a make-up quiz, unless he/she has given prior notification of absence from lecture to me (not the TA).
+
+****Homework Policies:****
+1.	Homework assignments will be assigned throughout the semester.
+2.	Your assignments must be neat and legible, or points will be deducted.
+3.	Your assignments must give details outlining how you got to your solution, or points will not be granted.
+4.	You will upload your homework through Canvas by the due date and time specified. Typed and written assignments are acceptable.
+5.	Use of AI for homework and projects is permitted, provided that its role is clearly defined.
+6.	NO LATE HOMEWORKS WILL BE ACCEPTED WITHOUT PRIOR PERMISSION.
+
+
+
 **Software**
 Some words about specialized software including Simio, Flexsim,
 Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
