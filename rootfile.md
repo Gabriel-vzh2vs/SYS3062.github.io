@@ -32,7 +32,7 @@ Discussion Forum: [Piazza for SYS 3062]( https://piazza.com/class/tbd)
 
 ****Course Description:****
 
-This course is an introductdion to theory and practice for modeling
+This course is an introduction to theory and practice for modeling
 and simulation, two mainstays of system engineering. The course
 provides a broad foundation covering fundamental principles,
 paradigms, and practices for modeling and analyzing stochastic systems
@@ -49,7 +49,7 @@ across topics such as the following:
   variances of system variables. Statistical independence and lack
   thereof.
 
-- Construction of single confidence intervals with adjustmentments for
+- Construction of single confidence intervals with adjustments for
   skewness. Construction of multiple, simultaneous confidence
   intervals and the Bonferroni correction.
 

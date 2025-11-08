@@ -100,50 +100,52 @@
       
       <div class="col-12 p-2" id="description" style="padding-top: 2 em;">
       <strong><b>Course Description: </b></strong>
-    <p>This is a first course in theory and practice for modeling and
-    simulation, two mainstays of system engineering. The course covers
-    fundamental principles, paradigms and practices for modeling
-    stochastic systems and analyzing them through computational
-    experiments (aka simulations). It is a course integrating lectures and
-    lab sessions covering:</p>
-    <ul>
-    <li><p>An introduction to modeling, model verification &amp; validation, types
-    of uncertainties, and examples of model types. Modeling and
-    simulation through the lens of stochastic processes.</p>
-    </li>
-    <li><p>Techniques and supporting theory (SLLN, CLT) for Monte Carlo based
-    simulation analytics (aka &quot;output analysis&quot;) for estimating means
-    and variances of system variables. Statistical independence and lack
-    thereof.</p>
-    </li>
-    <li><p>Spreadsheet-based simulations using the XLRisk plugin.</p>
-    </li>
-    <li><p>Construction of single confidence intervals with adjustments for
-    skewness, and multiple, simultaneous confidence intervals with the
-    Bonferroni correction.</p>
-    </li>
-    <li><p>The process of distribution modeling (aka &quot;input analysis&quot;) for
-    capturing random variables of the system. Goodness of
-    fit through the $\chi^2$- and KS-tests. The Phitter tool.</p>
-    </li>
-    <li><p>Simulation logic, common data structures, platforms and
-    architectures (e.g., HLA, cloud solutions). Pipelines and
-    workflows. Data management.</p>
-    </li>
-    <li><p>Modeling and simulation of queueing networks.</p>
-    </li>
-    <li><p>Generating random numbers &amp; variates, and the</p>
-    </li>
-    <li><p>Comparing alternative systems, simulation optimization, case
-    studies. (this is a leftover item from the SIS course description)</p>
-    </li>
-    <li><p>Selected advanced topics (e.g., Agent-Based Modelling, state machines)</p>
-    </li>
-    </ul>
-    <p>The lab will additionally include topics such as debugging, setting up
-    Python environments. VSCode with copilot.</p>
-    <p>Some words about Python and Excel. And some words about Simio,
-    Flexsim, Anylogic, Arena.</p>
+    <p>This course is an introduction to theory and practice for modeling
+and simulation, two mainstays of system engineering. The course
+provides a broad foundation covering fundamental principles,
+paradigms, and practices for modeling and analyzing stochastic systems
+through computational experiments, aka <em>simulations</em>. It is a course
+integrating theory and practice through lectures and lab sessions
+across topics such as the following:</p>
+<ul>
+<li><p>Modeling, model verification &amp; validation, types of uncertainties,
+with examples of types of models. Modeling and simulation through
+the lens of stochastic processes.</p>
+</li>
+<li><p>Techniques theory (SLLN, CLT) for Monte Carlo based simulation
+analytics (aka &quot;output analysis&quot;) used to estimate means and
+variances of system variables. Statistical independence and lack
+thereof.</p>
+</li>
+<li><p>Construction of single confidence intervals with adjustments for
+skewness. Construction of multiple, simultaneous confidence
+intervals and the Bonferroni correction.</p>
+</li>
+<li><p>Estimating sample size to generate confidence intervals with
+prescribed tolerances.</p>
+</li>
+<li><p>Spreadsheet-based simulations using the XLRisk plugin.</p>
+</li>
+<li><p>The process of distribution modeling (aka &quot;input analysis&quot;) for
+capturing random variables of the system. Goodness of fit assessment
+through the $\chi^2$- and KS-tests. The Phitter tool.</p>
+</li>
+<li><p>Simulation logic, common data structures, platforms and
+architectures (e.g., HLA, cloud solutions). Pipelines and
+workflows. Data management.</p>
+</li>
+<li><p>Queueing systems.</p>
+</li>
+<li><p>Random number generators (RNGs) and their role in simulation-based
+system analysis. Assessing the quality of RNGs. Pitfalls.</p>
+</li>
+<li><p>Generating variates from distributions other than $U(0,1)$.</p>
+</li>
+<li><p>Selected topics, e.g., agent-based modelling, state machines,
+comparing alternative systems, simulation optimization; case
+studies.</p>
+</li>
+</ul>
       </div>
       <div class="col-12 p-2" id="objectives" style="padding-top: 2 em;">
   <strong><b>Learning Objectives: </b></strong> 
@@ -162,16 +164,35 @@
   <strong><b>Recommended Textbooks:</b></strong> 
           <p> Averill M. Law (2013) Simulation Modeling & Analysis (5th edition), and Modelling and Simulation by Henning Mortveit and Gabriel Lawrence (available at <a href="https://github.com/Gabriel-vzh2vs/Modelling-And-Simulation-Public-Release">Github</a>), but, students may be recommended to read chapters from:
     <ul>
-    <li><a href="https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcHaG1N6dRtHtkrEwyCO4X0B9cGUjsPYzcGWsV1u2vwSaw?e=4Lg4tf"> Discrete Event Simulation, 5th Edition</a> by Banks and et. al.</li>
+    <li><a href="https://ferltz.github.io/inv_oper_2/documents/books/Discrete-Event%20System%20Simulation-Pearson%20Banks%20Carson%20(2013).pdf"> Discrete Event Simulation, 5th Edition</a> by Banks and et. al.</li>
     <li><a href="https://artowen.su.domains/mc/"> Monte Carlo Theory, Methods, and Examples </a> by Art B. Owen</li>
-    <li><a href="https://myuva-my.sharepoint.com/:b:/g/personal/vzh2vs_virginia_edu/EcsQuG4zn_hErNIv2cHHhCIBGnLa8hG6PyKXppUVQPHGEw?e=ORL1i2"">Hands-On Simulation Modelling with Python </a> by Giuseppe Ciaburro </li>
-    <li><a href="http://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf"> Simulation: A Modeler's Approach </a> by James R. Thompson.</li>
+    <li><a href="https://learning.oreilly.com/library/view/hands-on-simulation-modeling/9781804616888/"">Hands-On Simulation Modelling with Python </a> by Giuseppe Ciaburro through UVA Library </li>
+    <li><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9780470317068"> Simulation: A Modeler's Approach </a> by James R. Thompson through UVA.</li>
+    <li><a href="https://ebookcentral.proquest.com/lib/uva/detail.action?docID=1044919"> Simulation 5th Edition </a> by Ross.</li>
+    <li><p><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/9780470130599">HOW TO DO SYSTEMS ANALYSIS</a> by John E. Gibson William T. Scherer, and William F. Gibson</p></li>
+    <li><p>A. Tolk, P. Barry, M. L. Loper, G. Rabadi, W. T. Scherer and L. Yilmaz <a href="https://ieeexplore.ieee.org/abstract/document/10408241">Chances and Challenges of ChatGPT and Similar Models for Education in M&amp;S</a> 2023 Winter Simulation Conference (WSC), San Antonio, TX, USA, pp. 3332-3346, doi: 10.1109/WSC60868.2023.10408241.</p>
           </ul>
     </p>
       </div>
     </div>
 
+    <p><strong><strong>Attendance:</strong></strong>
+    Official written attendance will not be taken. Quizzes may be administered unannounced during any lecture hour, and online surveys will be conducted in class. A student who misses a quiz will not receive credit and will not be offered a make-up quiz, unless he/she has given prior notification of absence from lecture to me (not the TA).</p>
+    <p><strong><strong>Homework Policies:</strong></strong></p>
+    <ol>
+    <li>Homework assignments will be assigned throughout the semester.</li>
+    <li>Your assignments must be neat and legible, or points will be deducted.</li>
+    <li>Your assignments must give details outlining how you got to your solution, or points will not be granted.</li>
+    <li>You will upload your homework through Canvas by the due date and time specified. Typed and written assignments are acceptable.</li>
+    <li>Use of AI for homework and projects is permitted, provided that its role is clearly defined.</li>
+    <li>NO LATE HOMEWORKS WILL BE ACCEPTED WITHOUT PRIOR PERMISSION.</li>
+    </ol>
 
+    <p><strong>Software</strong>
+  Some words about specialized software including Simio, Flexsim,
+  Anylogic, and Arena. Our strategy of using Python and XLRisk. That as
+  a professional, you may have to become familiar with one of
+  these. Also: Brian Park&#39;s graduate course uses it.</p>
 
     <div class="section " id="schedule" style="padding-top: 3em;">
       <h4 >Schedule</h4>
